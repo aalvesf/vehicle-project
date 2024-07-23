@@ -12,9 +12,6 @@ public abstract class Vehicle {
         this.model = model;
         this.speed = speed;
     }
-    public boolean isRunning() {
-        return running;
-    }
 
     public void drive() {
         if (engine.isRunning()) {
